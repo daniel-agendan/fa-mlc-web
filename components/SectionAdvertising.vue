@@ -4,9 +4,9 @@
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
     <div
-      class="relative h-full w-full bg-gray-900 bg-opacity-50"
+      class="inline-block h-full items-center justify-center w-full bg-gray-900 bg-opacity-50"
     >
-      <div class="absolute mx-auto h-full w-full flex flex-col items-center justify-center">
+      <div class="h-full w-full text-center items-center justify-center flex flex-col">
         <slot />
       </div>
     </div>
