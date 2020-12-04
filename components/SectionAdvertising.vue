@@ -4,7 +4,7 @@
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
     <div
-      class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50"
+      class="flex items-center justify-center min-h-full w-full bg-gray-900 bg-opacity-50"
     >
       <div class="text-center flex flex-col">
         <slot />
