@@ -1,12 +1,12 @@
 <template>
   <div
-    class="w-full flex-grow bg-cover bg-center"
+    class="w-full flex-1 bg-cover bg-center"
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
     <div
-      class="flex items-center justify-center min-h-full w-full bg-gray-900 bg-opacity-50"
+      class="relative h-full w-full bg-gray-900 bg-opacity-50"
     >
-      <div class="text-center flex flex-col">
+      <div class="absolute mx-auto h-full w-full flex flex-col items-center justify-center">
         <slot />
       </div>
     </div>

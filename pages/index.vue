@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row h-screen w-screen mx-auto bg-white">
+  <div class="flex flex-col md:flex-row h-screen w-screen bg-white">
     <div class="md:hidden bg-black text-white p-2 flex">
       <p class=" font-bold uppercase">Fa-mlc</p>
       <span class="ml-1">I Kristianstad</span>
